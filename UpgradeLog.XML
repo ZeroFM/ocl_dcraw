@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ocl_dcraw_demo">
+</Property><Property Name="Solution File" Value="E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo.sln">
+</Property><Property Name="User Options File" Value="E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo.suo">
+</Property><Property Name="Date" Value="2011年11月9日">
+</Property><Property Name="Time" Value="10:48">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ocl_dcraw_demo.sln" Description="File successfully backed up as E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="ocl_dcraw_demo.suo" Description="File successfully backed up as E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo.suo.old">
+</Event><Event ErrorLevel="0" Project="ocl_dcraw_demo" Source="ocl_dcraw_demo\ocl_dcraw_demo.vcproj" Description="Converting project file 'E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo\ocl_dcraw_demo.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ocl_dcraw_demo" Source="ocl_dcraw_demo\ocl_dcraw_demo.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ocl_dcraw_demo" Source="ocl_dcraw_demo\ocl_dcraw_demo.vcproj" Description="Done converting to new project file 'E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo\ocl_dcraw_demo.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ocl_dcraw_demo" Source="ocl_dcraw_demo\ocl_dcraw_demo.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ocl_dcraw_demo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ocl_dcraw_demo.sln" Description="Converted">
+</Event></UpgradeLog>

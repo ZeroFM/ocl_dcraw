@@ -1,0 +1,53 @@
+﻿Build started 2011/11/9 10:51:00.
+     1>Project "E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo\ocl_dcraw_demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ocl_dcraw_demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         Deleting file "Release\ocl_dcraw_demo.pch".
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ocl_dcraw_demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ocl_dcraw_demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LeftView.cpp MainFrm.cpp ocl_dcraw_demo.cpp ocl_dcraw_demoDoc.cpp ocl_dcraw_demoView.cpp
+         LeftView.cpp
+     1>LeftView.cpp(57): warning C4101: 'findresult' : unreferenced local variable
+     1>LeftView.cpp(55): warning C4101: 'pShellMalloc' : unreferenced local variable
+     1>LeftView.cpp(56): warning C4101: 'szDir' : unreferenced local variable
+     1>LeftView.cpp(54): warning C4101: 'pidl' : unreferenced local variable
+     1>LeftView.cpp(88): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>LeftView.cpp(89): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>LeftView.cpp(116): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>LeftView.cpp(117): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>LeftView.cpp(118): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         MainFrm.cpp
+         ocl_dcraw_demo.cpp
+         ocl_dcraw_demoDoc.cpp
+         ocl_dcraw_demoView.cpp
+     1>e:\amd\ocl_dcraw_demo\ocl_dcraw_demo\ocl_dcraw_dll.h(2): warning C4005: 'EXPORT' : macro redefinition
+                 d:\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxv_w32.h(175) : see previous definition of 'EXPORT'
+     1>ocl_dcraw_demoView.cpp(202): warning C4244: '=' : conversion from 'wchar_t' to 'char', possible loss of data
+     1>ocl_dcraw_demoView.cpp(256): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>ocl_dcraw_demoView.cpp(257): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ocl_dcraw_demoView.cpp(262): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>ocl_dcraw_demoView.cpp(263): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ocl_dcraw_demoView.cpp(352): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ocl_dcraw_demoView.cpp(353): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\ocl_dcraw_demo.res" ocl_dcraw_demo.rc 
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AMD\ocl_dcraw_demo\Release\ocl_dcraw_demo.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glu32.lib glut.lib ocl_dcraw_dll.lib /MANIFEST /ManifestFile:"Release\ocl_dcraw_demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\AMD\ocl_dcraw_demo\Release\ocl_dcraw_demo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AMD\ocl_dcraw_demo\Release\ocl_dcraw_demo.lib" /MACHINE:X86 Release\ocl_dcraw_demo.res
+         Release\LeftView.obj
+         Release\MainFrm.obj
+         Release\ocl_dcraw_demo.obj
+         Release\ocl_dcraw_demoDoc.obj
+         Release\ocl_dcraw_demoView.obj
+         Release\stdafx.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'glut.lib'
+     1>Done Building Project "E:\AMD\ocl_dcraw_demo\ocl_dcraw_demo\ocl_dcraw_demo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.53
